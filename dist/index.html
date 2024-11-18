@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="contact">
+        <h2>Contact Us <span></span></h2>
+        <div class="name">
+            <div class="first">
+                <h4>First Name <span class="required">*</span></h4>
+                <input type="text" name="First Name" id="first" required style="width: 100%;">
+            </div>
+            <div class="first">
+                <h4>Last Name <span class="required">*</span></h4>
+                <input type="text" name="Last Name" id="last" required style="width: 100%;" >
+            </div>
+        </div>
+        <div class="first">
+            <h4>Email <span class="required">*</span></h4>
+            <input type="textarea" name="Email" id="email" style="width: 100%;" required>
+        </div>
+        <div class="first query" >
+            <h4>Query Type <span class="required">*</span></h4>
+
+            <div class="query_box">
+                <div class="general">
+                    <input type="checkbox" name="General" id="general"><label for="general">General Enquiry</label>
+                </div>
+                <div class="general">
+                    <input type="checkbox" name="Support" id="support"><label for="support">Support Request</label>
+                </div>
+            </div>
+        </div>
+        <div class="first">
+            <h4>Message <span class="required">*</span></h4>
+            <!-- <input type="textarea" name="" id="" class="textarea"> -->
+            <textarea name="" id="" cols="30" rows="10" class="textarea"></textarea>
+        </div>
+        <div class="first consent">
+            <input type="checkbox" name="Support" id="support"><label for="support">I consent to being contacted by the team <span class="required">*</span></label>
+        </div>
+
+        <button type="submit " style="padding: 5px 0; background: rgb(179, 216, 221); border: none; cursor: `;">Submit</button>
+    </form>
+</body>
+</html>
